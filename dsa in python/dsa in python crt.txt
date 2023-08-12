@@ -1,0 +1,93 @@
+linear data structures   --    stacks,queues,linked lists                            data where the data elents ae arranged sequentially or linearlly where the elements are attached to its       previous and next adjacent in what is called in a linear data structure
+non linear data structures --  graphs,trees
+
+
+stacks--empty() returns weather the stack is empty or not  o(1)
+size() return the size of the stack means the size that is fixed for stack
+getsize() returns the no of available elements that are present in the stack
+peek() only returns the element that is present in the top of stack
+
+
+queues
+fifo
+enque  --inserting elements in the queue
+dequeue  removing elements from the queue
+full -- return true if there are maxsize items in the queue
+get --element is used to remove an item from the queue if queue is empty wait until an item is availble if the queue is empty then it enters into the infinie loop
+
+
+
+linked-lists
+---------------------------------
+they don't store elements at random locations but we can able to access them sequential manner
+every element contains two parts --data part,and next part -contains the reference to the next element
+if the next part is last node then it contains the null value
+head node is the first node in the linked lists
+
+efficiency of linked lists vs list
+----------------------------------------------------------------------------
+linked list is more efficient than list while inseting or deleting the elements in between 
+while deleting the element from the last then the time complexity is same
+
+retrival element then list is more efficient than linked lists
+most of the cases linked list is more efficicent
+------------------------------------------------------------------------------------------------------------
+
+Non linear data structures 
+graphs 
+trees
+
+graph is a non linear data structure having set of vertices and edges they are multiple types those are 
+directed graph and 
+undirected graph
+weighted graph
+unweighted graph
+google maps are an example for weighted undirected graphs
+--------------------------------------------------------------------
+trees are used while representing the family
+the representation of trees is in hireachal manner
+the nodes that are present in the down of the tree is leaf node
+the head node is root node
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+--push is a function that is used to insesrt values into the stack 
+  if we tried to push elements even after the stack is full then the overflow condition occurs 
+   we can check the weather the stack is full or nut by using isFull() function
+--pop is a function is used to remove the element that is present in the top of the stack 
+  if we tried to pop elements even after the stack is empty then the underflow condition occurs 
+  we can check the weather the stack is empty or not using isEmpty() function
+--peek() -- funciotn is used to return the value that is present in the top of the function it doesn't remvoe any value like pop does
+  when we said the peek value then we need to write the value of the top element 
+  but when we say top then we need to write the index of the stack
+--when the stack is empty and when we call top the value is -1 it's not 0 as the first element in the stack begins with 0
+
+postfix--
+prefix--
+infix--

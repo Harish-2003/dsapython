@@ -1,0 +1,4 @@
+liked lists are the list that are formed with the help of nodes every node consists of a data node and address node 
+the transversing of the linked list cannot be done 
+there are multiple types of linked list those are single linked list and double linked lists and circular linked lists
+we can't transverse back in the single linked lists ,where we can able to transvesrse back in double linked lists

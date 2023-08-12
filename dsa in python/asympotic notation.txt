@@ -1,0 +1,31 @@
+-Asymptotic notations are the mathematical notations used to describe the running time of an algorithm 
+  when the input tends towards a particular value or a limiting value
+-order of growth:- 
+
+ -In general, we expect an algorithm with a smaller leading term to be a better algorithm for large problems,
+   but for smaller problems, there may be a crossover point where another algorithm is better. 
+   The location of the crossover point depends on the details of the algorithms, the inputs, and the hardware, 
+   so it is usually ignored for purposes of algorithmic analysis. But that doesn’t mean you can forget about it.
+
+--If two algorithms have the same leading order term, it is hard to say which is better;
+  again, the answer depends on the details. So for algorithmic analysis, functions with the same 
+  leading term are considered equivalent, even if they have different coefficients.
+
+ --An order of growth is a set of functions whose asymptotic growth behavior is considered equivalent.
+ For example, 2n, 100n and n + 1 belong to the same order of growth, which is written O(n) in Big-Oh 
+ notation and often called linear because every function in the set grows linearly with n.
+
+-for each type of input each algorithm works better than other algorithms based on the size of input and 
+  value of the input it depends upon the input.
+
+three types of asympotatic notation
+1)big O  --represents exact bound or upper bound
+2)thetha --represents exact bound                      ----always the same value (merge sort,heap sort,selection sort)
+3)omega  --represents exact bound or lower bound
+
+--------------------https://www.geeksforgeeks.org/types-of-asymptotic-notations-in-complexity-analysis-of-algorithms/
+
+
+
+
+
