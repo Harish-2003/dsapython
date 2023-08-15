@@ -1,0 +1,24 @@
+all the below commands are applicable in git bash
+git init makes you create .git folder
+ls -la helps you to list out all the folders that is present in git
+touch filename.txt helps you create filename.txt file
+git clone "https://github.com/Harish-2003/dsapython.git"     -- this makes you to install all the folders that is present in the terminal
+there are two types of version control systems those are distubuted and centrailized versions
+git workflow is considered as a crucial part as it helps to make changes in a sechudled manner as many users in the network do so 
+there are broken in 3 stages modified , staged commited
+adding removing or updating any file is known as modified state git knows that the file is updated/added/removed but it doesn't track it
+(git add) makes the file into stagging area 
+in order to track a file the file need to be placed in stagging area (once added the file is tracked)
+(git commit) it means saving a file and have a snapshot of the current changes
+pwd helps you to know which branch your currently on
+git status helps you to identify all the changes that are made and also tells that which branch you are on
+
+git add helps you to move the file to the stagging area
+to move from stagging area to the main area we can use git commit
+to remove the file from the stagging are we can use the cmd 
+git restore --stage filename.txt
+git commit -m "the description that we wish to add"   --- this make changes on your local machine not on the remote server 
+
+git push helps you to make changes in the local server
+
+git checkout -B feature/lesson (feature/lesson) is optional helps you to create and move to that respective branch
